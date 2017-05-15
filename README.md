@@ -1,7 +1,9 @@
 
-Before compiling , please make sure you have the openssl dev package installed .<br/>
-Compile using : 
-       <br/> gcc -Wall -g -o ssl_shell.c ssl_shell.o -lssl -lcrypto</br>
-As a side note, for some scenarios, you will probaly want to link statically against the library. 
+Before compiling , please make sure you have the openssl dev package installed .</br>
+Compile using : </br>
+       <b> gcc -Wall -g -o ssl_shell.c ssl_shell.o -lssl -lcrypto </b>
+You will probably want to link statically against the library to avoid missing libraries issues in the target . 
 
-You can either use ncat (http://edoceo.com/cli/ncat) or any other tool that will allow you to send commands to the client .
+You can either use ncat (http://edoceo.com/cli/ncat) or any other tool with ssl support to send commands to the client .</br>
+To test the client, you can use openssl s_server utility on your server and wait for connections:</br>
+       <b>openssl s_server -key key.pem -cert cert.pem -accept 443</b>
