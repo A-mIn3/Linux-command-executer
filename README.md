@@ -1,5 +1,5 @@
 
-Before compiling , please make sure you have the openssl dev package installed .</br>
+Before compiling , please make sure you have the OpenSSL dev package installed .</br>
 Compile using : </br>
        <b> gcc -Wall -g -o shell shell.c -lssl -lcrypto </b></br>
 You will probably want to link statically against the library to avoid missing libraries issues in the target . 
