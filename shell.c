@@ -93,7 +93,7 @@ int  ssl_connect(sslsocket* s){
 void main(void){
 
 
-        int                     nbytes, recv_length, one=1;
+        int                     nbytes, recv_length;
         sslsocket*              sslsock;
         char                    cmd[1024];
         char                    cmd_output[1024];
