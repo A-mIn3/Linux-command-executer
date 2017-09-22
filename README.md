@@ -1,6 +1,6 @@
 
 
-## Compilation and Use :
+## Compilation and Usage :
  
   Before compiling, please make sure you have the OpenSSL dev package installed.
   Compile using : </br>
