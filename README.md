@@ -1,9 +1,9 @@
 
 
-## Compilation and Use
+## Compilation and Use :
  
   Before compiling, please make sure you have the OpenSSL dev package installed.
-  Compile using : 
+  Compile using : </br>
        <b> gcc -Wall -g -o shell shell.c -lssl -lcrypto </b></br>
 
   You will probably want to link statically against the library to avoid dependencies issues on the target. 
@@ -13,5 +13,6 @@
 
 
 
-## Rubber Ducky Script
+## Rubber Ducky Script :
+  
   This is a script that can be used to deliver your payload using HAK5 [Rubber Ducky USB stick](https://ducktoolkit.com).
