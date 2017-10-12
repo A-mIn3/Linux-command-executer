@@ -15,4 +15,4 @@
 
 ## Rubber Ducky Script :
   
-  This is a script that can be used to deliver your payload using HAK5 [Rubber Ducky USB stick](https://ducktoolkit.com).
+  This script illusrates a simple use case scenario where we deliver our payload using HAK5 [Rubber Ducky USB stick](https://ducktoolkit.com).
