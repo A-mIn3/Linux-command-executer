@@ -16,3 +16,7 @@
 ## Rubber Ducky Script :
   
   This script illusrates a simple use case scenario where we deliver our payload using HAK5 [Rubber Ducky USB stick](https://ducktoolkit.com).
+
+
+## Disclaimer
+Theses tools are made only for educational purposes and can be only used in legitimate penetration tests. Author does not take any responsibility for any actions taken by its users.
